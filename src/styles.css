@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+.flatpickr-calendar {
+  font-family: inherit;
+}
+
+.flatpickr-months .flatpickr-month {
+  height: 44px;
+}
+
+.flatpickr-current-month {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 0;
+  font-size: 16px;
+}
+
+.flatpickr-current-month .numInputWrapper {
+  width: auto;
+}
+
+.flatpickr-current-month .numInputWrapper::after {
+  display: inline-block;
+  content: "年";
+  transform: translateX(-1.7em);
+  font-weight: 700;
+}
+
+.flatpickr-current-month input.cur-year {
+  height: auto;
+  padding: 8px 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1em;
+  width: 84px;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  height: auto;
+  padding: 8px 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1em;
+  appearance: none;
+}
